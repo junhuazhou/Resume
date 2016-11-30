@@ -1,0 +1,141 @@
+.section {
+    text-align: center;
+    font: 15px "Microsoft Yahei";
+    color:black;
+    list-style: none;
+    background:url("../images/bg1.jpg");
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    background-color: rgba(0,0,0,.2);
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    left: 0;
+}
+#photo{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+#list{
+    float: left;
+    margin:0;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+}
+#list li:first-child{
+    border-bottom: 1px solid black;
+    width: 100px;
+}
+#nav_header{
+    float: right;
+    margin-right: 100px;
+    height: 60px;
+}
+#nav_header li{
+    line-height: 57px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#nav_header li:hover{
+    border-bottom: 3px solid deepskyblue;
+}
+#nav_header li:hover a{
+    color: red;
+}
+.second_passage p { position: relative; bottom: -120%;}
+.third_passage p { position: relative; bottom: -120%;}
+.forth_passage p { display: none;}
+.first_passage h3{position: relative;  left: -120%;}
+.first_passage p{position: relative; right: -120%;}
+.pic{
+    padding-top: 200px;
+    bottom: -120%;
+    position: relative;
+}
+.pic img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* 第二屏 */
+.second_title{
+     line-height: 40px;
+}
+.second_title h1{
+    width: 150px;
+    margin: 0 auto;
+    border-bottom: 2px solid red;
+    line-height: 60px;
+}
+.my_info{
+    width: 600px;
+    height: 200px;
+    background-color: silver;
+    margin: 40px auto;
+    border-radius: 30px;
+}
+.my_info{
+
+}
+.my_info img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 4px solid whitesmoke;
+    padding: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.my_info ul{
+    padding-top: 30px;
+}
+.my_info ul li{
+    float: left;
+    list-style: none;
+    width: 100px;
+    color: whitesmoke;
+    margin-right: 35px;
+}
+
+/* 第三屏  .........*/
+.skill{
+
+}
+.skill ul{
+
+}
+.skill ul li{
+    display: inline-block;
+    margin-right: 100px;
+    left: -120%;
+    position:relative;
+}
+.skill ul li img{
+    width: 80px;
+    height: 80px;
+}
+.demo{
+
+}
+.demo ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+.demo_bg{
+    background-color: silver;
+    width: 200px;
+    height: 160px;
+    border: 3px solid whitesmoke;
+    overflow: hidden;
+}

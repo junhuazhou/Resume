@@ -51,7 +51,7 @@ $(function(){
     
     
     $(".pic img").mouseover(function () {
-        $(this).attr("src","images/pic2.jpg");
+        $(this).attr("src","images/pic2.JPG");
     })
     $(".pic img").mouseleave(function () {
         $(this).attr("src","images/pic3.jpg");
